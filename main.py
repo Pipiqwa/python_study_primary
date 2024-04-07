@@ -3,8 +3,7 @@
 # 按 Shift+F10 执行或将其替换为您的代码。
 # 按 双击 Shift 在所有地方搜索类、文件、工具窗口、操作和设置。
 
-from packages import April_6th_student
-
+from packages import Apr6_2_student
 
 # 创建一个学生对象
 
@@ -15,7 +14,7 @@ def print_hi(name):
 
 
 def student1_introduction():
-    student1 = April_6th_student.Student("Alice", 20, "S001")
+    student1 = Apr6_2_student.Student("Alice", 20, "S001")
     student1.introduce()
 
 

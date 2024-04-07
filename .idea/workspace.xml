@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="My First package script">
-      <change afterPath="$PROJECT_DIR$/packages/April_6th_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/April_6th_student.py" afterDir="false" />
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="While_For">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/April_6th.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr7_1_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_1_for.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.3_dictionary_tuple.executor": "Run",
+    "Python.Apr7_1_for.executor": "Run",
     "Python.April_6th.executor": "Run",
     "Python.April_6th_list.executor": "Run",
     "Python.__init__.executor": "Run",
@@ -43,8 +42,8 @@
     "settings.editor.selected.configurable": "template.copyright.formatting"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.__init__">
-    <configuration name="April_6th_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Apr6_1_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_0" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/April_6th_list.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pipiqwq\PycharmProjects\pythonProject_0\packages\Apr6_1_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +112,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.April_6th_list" />
+        <item itemvalue="Python.Apr6_1_list" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712370717629</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="list_dictionary_sorting">
+      <option name="closed" value="true" />
+      <created>1712409129919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712409129919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="While_For">
+      <option name="closed" value="true" />
+      <created>1712460554299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712460554299</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +202,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="My First package script rename" />
     <MESSAGE value="My First package script" />
-    <option name="LAST_COMMIT_MESSAGE" value="My First package script" />
+    <MESSAGE value="list_dictionary_sorting" />
+    <MESSAGE value="While_For" />
+    <option name="LAST_COMMIT_MESSAGE" value="While_For" />
   </component>
 </project>
