@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="Format string">
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_2_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_0_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_2_double_point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_construct_slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/str_6_slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr7_4_def.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr7_5_import.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr7_6_OOP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_1_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_2_try_except.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_3_assert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_4_test_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_5_class_shopping_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_6_high_order_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_7_lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr8_8_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr_8_1_async_aiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_adder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_shopping_list.py" afterDir="false" />
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="Upload remote repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr6_1_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr6_1_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr7_1_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_1_for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr7_3_format_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_3_format_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712475336797</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Upload remote repository">
+      <option name="closed" value="true" />
+      <created>1713243443464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713243443464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Upload remote repository">
+      <option name="closed" value="true" />
+      <created>1713243767069</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713243767069</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +309,8 @@
     <MESSAGE value="list_dictionary_sorting" />
     <MESSAGE value="While_For" />
     <MESSAGE value="Format string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format string" />
+    <MESSAGE value="Upload remote repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload remote repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
