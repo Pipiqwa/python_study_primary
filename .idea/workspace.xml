@@ -4,10 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="While_For">
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="Format string">
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_2_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_0_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_2_double_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_4_construct_slicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/str_6_slicing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acm_OJ/calculate_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr7_4_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr7_5_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr7_6_OOP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_1_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_2_try_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_3_assert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_4_test_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_5_class_shopping_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_6_high_order_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_7_lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr8_8_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr_8_1_async_aiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_adder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_shopping_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr7_2_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_2_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr6_1_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr6_1_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr6_3_dictionary_tuple_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr7_1_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_1_for.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr7_3_format_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr7_3_format_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +65,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor": "Run",
+    "Python 测试.Python 测试 (main_test.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_adder.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_main.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_shopping_list.py 内).executor": "Run",
+    "Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor": "Run",
     "Python.3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_1_list.executor": "Run",
+    "Python.Apr6_2_student.executor": "Run",
     "Python.Apr6_3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_3_dictionary_tuple_while.executor": "Run",
     "Python.Apr7_1_for.executor": "Run",
     "Python.Apr7_2_while.executor": "Run",
+    "Python.Apr7_3_format_str.executor": "Run",
+    "Python.Apr7_4_def.executor": "Run",
+    "Python.Apr7_5_import.executor": "Run",
+    "Python.Apr7_6_OOP.executor": "Run",
+    "Python.Apr8_1_file.executor": "Run",
+    "Python.Apr8_2_try_except.executor": "Run",
+    "Python.Apr8_3_assert.executor": "Run",
+    "Python.Apr8_5_class_shopping_list.executor": "Run",
+    "Python.Apr8_6_high_order_function.executor": "Run",
+    "Python.Apr8_7_lambda.executor": "Run",
+    "Python.Apr8_8_async.executor": "Run",
+    "Python.Apr_8_1_async_aiter.executor": "Run",
     "Python.April_6th.executor": "Run",
     "Python.April_6th_list.executor": "Run",
     "Python.__init__.executor": "Run",
+    "Python.calculate_3.executor": "Run",
+    "Python.calculate_4.executor": "Debug",
     "Python.main.executor": "Run",
+    "Python.str_1.executor": "Run",
+    "Python.str_2.executor": "Run",
+    "Python.str_3.executor": "Run",
+    "Python.str_4.executor": "Run",
+    "Python.str_4_0_1.executor": "Run",
+    "Python.str_4_1.executor": "Run",
+    "Python.str_4_2_double_point.executor": "Run",
+    "Python.str_4_construct_slicing.executor": "Run",
+    "Python.str_5.executor": "Run",
+    "Python.str_6_slicing.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/pipiqwq/PycharmProjects/notes-python",
-    "settings.editor.selected.configurable": "template.copyright.formatting"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行 Python 文件" flag="true" />
+      <visibility group="运行 conda 命令" flag="true" />
+      <visibility group="运行 pip 命令" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
   <component name="RunManager">
     <configuration name="Apr6_1_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_0" />
@@ -112,8 +193,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_shopping_list.TestShoppingList.test_query_amount_by_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_0" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_shopping_list.TestShoppingList.test_query_amount_by_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python 测试.Python tests for test_shopping_list.TestShoppingList.test_query_amount_by_name" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.Apr6_1_list" />
       </list>
@@ -183,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712463994030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Format string">
+      <option name="closed" value="true" />
+      <created>1712473501963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712473501963</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Format string">
+      <option name="closed" value="true" />
+      <created>1712475336797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712475336797</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +328,23 @@
     <MESSAGE value="My First package script" />
     <MESSAGE value="list_dictionary_sorting" />
     <MESSAGE value="While_For" />
-    <option name="LAST_COMMIT_MESSAGE" value="While_For" />
+    <MESSAGE value="Format string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Format string" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/str_4_2_double_point.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/str_4_0_1.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

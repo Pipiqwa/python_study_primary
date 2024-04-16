@@ -21,12 +21,12 @@ print(temperature_dictionary.keys())
 print(temperature_dictionary.values())
 print(temperature_dictionary.items())  # 化为tuple 元组
 # 2种写法
-for staff_id,temperature in temperature_dictionary.items():  # for temperature_tuple in temperature_dictionary;
-    if temperature >= 37:                                    # staff_id = temperature_tuple[0]
-        print(staff_id+" "+str(temperature))                 # temperature = temperature_tuple[2]
+for staff_id, temperature in temperature_dictionary.items():  # for temperature_tuple in temperature_dictionary;
+    if temperature >= 37:  # staff_id = temperature_tuple[0]
+        print(staff_id + " " + str(temperature))  # temperature = temperature_tuple[2]
 print("\n")
 
-# 字符串
+# 字符串 只可以添加 不能删除
 original_str = "123"
 # 使用列表推导式将每个字符转换为整数，加1，然后转换回字符串
 result_str = ''.join(str(int(char) + 1) for char in original_str)

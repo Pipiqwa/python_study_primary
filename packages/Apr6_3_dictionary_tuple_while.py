@@ -1,12 +1,6 @@
-# tuple 元组
+# tuple 元组(1,3)
 a = [(1, 3), 3, 5]
 print(a)
-
-# File IO
-# f = open('data.txt', 'w')
-# f.write('1 2 3 4\n')
-# f.write('2 3 4 5\n')
-# f.close()
 
 # 字典
 contacts = {"小明": "12345678900",
