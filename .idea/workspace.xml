@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="Upload remote repository">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="first change and push">
+      <change afterPath="$PROJECT_DIR$/HJ/hj3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pipiqwa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pipiqwa/python_study_primary.git&quot;,
+    &quot;accountId&quot;: &quot;834aca9f-67a6-4206-ad9b-dbe63e0031b6&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -34,56 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (main_test.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_adder.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_main.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_shopping_list.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_1_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_2_student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_3_dictionary_tuple_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_1_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_2_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_3_format_str.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_4_def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_5_import.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_6_OOP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_1_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_2_try_except.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_3_assert.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_5_class_shopping_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_6_high_order_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_7_lambda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_8_async.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr_8_1_async_aiter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.April_6th.executor&quot;: &quot;Run&quot;,
-    &quot;Python.April_6th_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_0_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_2_double_point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_construct_slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_6_slicing.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pipiqwq/PycharmProjects/notes-python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor": "Run",
+    "Python 测试.Python 测试 (main_test.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_adder.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_main.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_shopping_list.py 内).executor": "Run",
+    "Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor": "Run",
+    "Python.3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_1_list.executor": "Run",
+    "Python.Apr6_2_student.executor": "Run",
+    "Python.Apr6_3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_3_dictionary_tuple_while.executor": "Run",
+    "Python.Apr7_1_for.executor": "Run",
+    "Python.Apr7_2_while.executor": "Run",
+    "Python.Apr7_3_format_str.executor": "Run",
+    "Python.Apr7_4_def.executor": "Run",
+    "Python.Apr7_5_import.executor": "Run",
+    "Python.Apr7_6_OOP.executor": "Run",
+    "Python.Apr8_1_file.executor": "Run",
+    "Python.Apr8_2_try_except.executor": "Run",
+    "Python.Apr8_3_assert.executor": "Run",
+    "Python.Apr8_5_class_shopping_list.executor": "Run",
+    "Python.Apr8_6_high_order_function.executor": "Run",
+    "Python.Apr8_7_lambda.executor": "Run",
+    "Python.Apr8_8_async.executor": "Run",
+    "Python.Apr_8_1_async_aiter.executor": "Run",
+    "Python.April_6th.executor": "Run",
+    "Python.April_6th_list.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.calculate_3.executor": "Run",
+    "Python.calculate_4.executor": "Debug",
+    "Python.hj3.executor": "Debug",
+    "Python.main.executor": "Run",
+    "Python.str_1.executor": "Run",
+    "Python.str_2.executor": "Run",
+    "Python.str_3.executor": "Run",
+    "Python.str_4.executor": "Run",
+    "Python.str_4_0_1.executor": "Run",
+    "Python.str_4_1.executor": "Run",
+    "Python.str_4_2_double_point.executor": "Run",
+    "Python.str_4_construct_slicing.executor": "Run",
+    "Python.str_5.executor": "Run",
+    "Python.str_6_slicing.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kk/PycharmProjects/python_study_primary",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0" />
     </key>
@@ -97,7 +114,7 @@
       <visibility group="运行配置" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="Apr6_1_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_0" />
       <option name="ENV_FILES" value="" />
@@ -314,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713247299022</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="first change and push">
+      <option name="closed" value="true" />
+      <created>1713254212874</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713254212874</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +373,8 @@
     <MESSAGE value="While_For" />
     <MESSAGE value="Format string" />
     <MESSAGE value="Upload remote repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload remote repository" />
+    <MESSAGE value="first change and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="first change and push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,6 +388,11 @@
           <url>file://$PROJECT_DIR$/LeetCode/str_4_0_1.py</url>
           <line>4</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ/hj3.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
