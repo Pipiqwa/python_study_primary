@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="hj3,hj4" />
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="hj4:None">
+      <change afterPath="$PROJECT_DIR$/HJ/hj5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ/hj6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ/hj7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ/hj8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr17_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj4.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr_8_1_async_aiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr8_1_async_aiter.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +43,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -75,8 +86,13 @@
     "Python.__init__.executor": "Run",
     "Python.calculate_3.executor": "Run",
     "Python.calculate_4.executor": "Debug",
+    "Python.hj2.executor": "Run",
     "Python.hj3.executor": "Run",
-    "Python.hj4.executor": "Run",
+    "Python.hj4.executor": "Debug",
+    "Python.hj5.executor": "Run",
+    "Python.hj6.executor": "Run",
+    "Python.hj7.executor": "Debug",
+    "Python.hj8.executor": "Run",
     "Python.main.executor": "Run",
     "Python.str_1.executor": "Run",
     "Python.str_2.executor": "Run",
@@ -344,7 +360,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713278280357</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hj3">
+      <option name="closed" value="true" />
+      <created>1713279128869</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713279128869</updated>
+    </task>
+    <task id="LOCAL-00018" summary="hj4:None">
+      <option name="closed" value="true" />
+      <created>1713279276523</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713279276523</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +412,9 @@
     <MESSAGE value="Upload remote repository" />
     <MESSAGE value="first change and push" />
     <MESSAGE value="hj3,hj4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hj3,hj4" />
+    <MESSAGE value="hj3" />
+    <MESSAGE value="hj4:None" />
+    <option name="LAST_COMMIT_MESSAGE" value="hj4:None" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,11 +430,38 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj3.py</url>
+          <url>file://$PROJECT_DIR$/LeetCode/str_2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ/hj7.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ/hj8.py</url>
           <line>6</line>
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ/hj6.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ/hj8.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

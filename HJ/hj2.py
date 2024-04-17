@@ -17,7 +17,7 @@ for line in sys.stdin:
         for char in line:
             if char in char_dict:
                 if char in "ABCD":
-                    char.
+                    char.swapcase()
                 char_dict[char] += 1
             else:
                 char_dict[char] = 1
