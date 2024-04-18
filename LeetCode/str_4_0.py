@@ -56,5 +56,8 @@ while str_input:
         new_line += (char+" ")
     print(new_line[:-1])
 
+    # use join
+    print(' '.join(new_charactor_list))
+
     # 重新建立输入
     str_input = input()

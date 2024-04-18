@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="hj4:None">
-      <change afterPath="$PROJECT_DIR$/HJ/hj5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HJ/hj6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HJ/hj7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HJ/hj8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/Apr17_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ/hj2_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ/hj_3_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_rename_test/file_rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject_0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject_0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj10.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj11.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj12.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj13.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj14.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HJ/hj3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj4.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Apr_8_1_async_aiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr8_1_async_aiter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj8.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj9.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/str_4_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/str_4_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +38,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -54,62 +64,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (main_test.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_adder.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_main.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_shopping_list.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_1_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_2_student.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr6_3_dictionary_tuple_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_1_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_2_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_3_format_str.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_4_def.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_5_import.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr7_6_OOP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_1_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_2_try_except.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_3_assert.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_5_class_shopping_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_6_high_order_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_7_lambda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr8_8_async.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Apr_8_1_async_aiter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.April_6th.executor&quot;: &quot;Run&quot;,
-    &quot;Python.April_6th_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculate_4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.hj2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hj3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hj4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.hj5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hj6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hj7.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.hj8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_0_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_2_double_point.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_4_construct_slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_6_slicing.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kk/PycharmProjects/python_study_primary&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor": "Run",
+    "Python 测试.Python 测试 (main_test.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_adder.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_main.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_shopping_list.py 内).executor": "Run",
+    "Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor": "Run",
+    "Python.3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_1_list.executor": "Run",
+    "Python.Apr6_2_student.executor": "Run",
+    "Python.Apr6_3_dictionary_tuple.executor": "Run",
+    "Python.Apr6_3_dictionary_tuple_while.executor": "Run",
+    "Python.Apr7_1_for.executor": "Run",
+    "Python.Apr7_2_while.executor": "Run",
+    "Python.Apr7_3_format_str.executor": "Run",
+    "Python.Apr7_4_def.executor": "Run",
+    "Python.Apr7_5_import.executor": "Run",
+    "Python.Apr7_6_OOP.executor": "Run",
+    "Python.Apr8_1_file.executor": "Run",
+    "Python.Apr8_2_try_except.executor": "Run",
+    "Python.Apr8_3_assert.executor": "Run",
+    "Python.Apr8_5_class_shopping_list.executor": "Run",
+    "Python.Apr8_6_high_order_function.executor": "Run",
+    "Python.Apr8_7_lambda.executor": "Run",
+    "Python.Apr8_8_async.executor": "Run",
+    "Python.Apr_8_1_async_aiter.executor": "Run",
+    "Python.April_6th.executor": "Run",
+    "Python.April_6th_list.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.calculate_3.executor": "Run",
+    "Python.calculate_4.executor": "Debug",
+    "Python.file_rename.executor": "Run",
+    "Python.hj10.executor": "Run",
+    "Python.hj11.executor": "Run",
+    "Python.hj12.executor": "Run",
+    "Python.hj13.executor": "Run",
+    "Python.hj14.executor": "Run",
+    "Python.hj2.executor": "Run",
+    "Python.hj3.executor": "Run",
+    "Python.hj4.executor": "Debug",
+    "Python.hj5.executor": "Run",
+    "Python.hj6.executor": "Run",
+    "Python.hj7.executor": "Debug",
+    "Python.hj8.executor": "Run",
+    "Python.hj9.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.str_1.executor": "Run",
+    "Python.str_2.executor": "Run",
+    "Python.str_3.executor": "Run",
+    "Python.str_4.executor": "Run",
+    "Python.str_4_0.executor": "Run",
+    "Python.str_4_0_1.executor": "Run",
+    "Python.str_4_1.executor": "Run",
+    "Python.str_4_2_double_point.executor": "Run",
+    "Python.str_4_construct_slicing.executor": "Run",
+    "Python.str_5.executor": "Run",
+    "Python.str_6_slicing.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kk/PycharmProjects/python_study_primary",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -127,7 +145,7 @@
       <visibility group="运行配置" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="Apr6_1_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject_0" />
       <option name="ENV_FILES" value="" />
@@ -440,19 +458,14 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj8.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/HJ/hj6.py</url>
           <line>12</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj8.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/HJ/hj12.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

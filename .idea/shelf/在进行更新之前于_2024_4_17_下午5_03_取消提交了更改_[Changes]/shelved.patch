@@ -1,0 +1,308 @@
+Index: HJ/hj2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\n输出字符串内出现的字符的次数（不区分大小写）\r\n输入：\r\nABCabc\r\nA\r\n输出：\r\n2\r\n\"\"\"\r\n\r\nimport sys\r\n\r\ni = 0\r\nchar_dict = {}\r\n\r\nfor line in sys.stdin:\r\n    if i == 0:\r\n        for char in line:\r\n            if char in char_dict:\r\n                if char in \"ABCD\":\r\n                    char.\r\n                char_dict[char] += 1\r\n            else:\r\n                char_dict[char] = 1\r\n        i += 1\r\n    else:\r\n        print(char_dict[line[:-1]])\r\n        char_dict = {}\r\n        i = 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HJ/hj2.py b/HJ/hj2.py
+--- a/HJ/hj2.py	(revision 96dab6b83f63dce81e0e7ab7cb8b0f11173f10a4)
++++ b/HJ/hj2.py	(date 1713262540803)
+@@ -9,20 +9,35 @@
+ 
+ import sys
+ 
++new_line = ''
+ i = 0
+ char_dict = {}
+ 
+ for line in sys.stdin:
+     if i == 0:
+         for char in line:
++            if char.isupper():
++                char = char.swapcase()
++            new_line += char
++
++        for char in new_line:
+             if char in char_dict:
+-                if char in "ABCD":
+-                    char.
+                 char_dict[char] += 1
+             else:
+                 char_dict[char] = 1
++
+         i += 1
+     else:
+-        print(char_dict[line[:-1]])
++        if line.isupper():
++            line = line.swapcase()
++
++        try:
++            print(char_dict[line[:-1]])
++        except KeyError:
++            print('0')
++
++
+         char_dict = {}
+         i = 0
++        new_line = ''
++
+Index: HJ/hj3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HJ/hj3.py b/HJ/hj3.py
+new file mode 100644
+--- /dev/null	(date 1713262732973)
++++ b/HJ/hj3.py	(date 1713262732973)
+@@ -0,0 +1,3 @@
++char = "AAAaaaaB+eee  eee"
++a = char.lower()
++print(a)
+\ No newline at end of file
+Index: HJ/hj2_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HJ/hj2_1.py b/HJ/hj2_1.py
+new file mode 100644
+--- /dev/null	(date 1713343874668)
++++ b/HJ/hj2_1.py	(date 1713343874668)
+@@ -0,0 +1,21 @@
++import sys
++
++the_line = ''
++the_character = ''
++i = 0
++total = 0
++
++for line in sys.stdin:
++    if i == 0:
++        the_line = line.lower()
++        i += 1
++    else:
++        the_character = line.lower()
++        i = 0
++
++        for char in the_line:
++            if char == the_character[:-1]:
++                total += 1
++
++        print(total)
++        total = 0
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 这是一个示例 Python 脚本。\r\n\r\n# 按 Shift+F10 执行或将其替换为您的代码。\r\n# 按 双击 Shift 在所有地方搜索类、文件、工具窗口、操作和设置。\r\n\r\n# from packages import Apr6_2_student\r\n# 请查看 __init__.py\r\nimport packages\r\n\r\ndef print_hi(name):\r\n    # 在下面的代码行中使用断点来调试脚本。\r\n    print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。\r\n\r\n\r\ndef student1_introduction():\r\n    student1 = packages.Student(\"Alice\", 20, \"S001\")\r\n    student1.introduce()\r\n\r\n# 按装订区域中的绿色按钮以运行脚本。\r\nif __name__ == '__main__':\r\n    print_hi('PyCharm')\r\n    student1_introduction()\r\n    pass\r\n# 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 96dab6b83f63dce81e0e7ab7cb8b0f11173f10a4)
++++ b/main.py	(date 1713261091900)
+@@ -12,6 +12,7 @@
+     print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
+ 
+ 
++
+ def student1_introduction():
+     student1 = packages.Student("Alice", 20, "S001")
+     student1.introduce()
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d63fe971-d0d1-46d0-888b-c9bfed44acfd\" name=\"Changes\" comment=\"My remote repository\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ehu1XgCv4GNddePxRKGbVHHCS1\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python 测试.Python 测试 (main_test.py 内).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python 测试.Python 测试 (test_adder.py 内).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python 测试.Python 测试 (test_main.py 内).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python 测试.Python 测试 (test_shopping_list.py 内).executor&quot;: &quot;Run&quot;,\r\n    &quot;Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.3_dictionary_tuple.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr6_1_list.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr6_2_student.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr6_3_dictionary_tuple.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr6_3_dictionary_tuple_while.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_1_for.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_2_while.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_3_format_str.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_4_def.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_5_import.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr7_6_OOP.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_1_file.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_2_try_except.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_3_assert.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_5_class_shopping_list.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_6_high_order_function.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_7_lambda.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr8_8_async.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Apr_8_1_async_aiter.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.April_6th.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.April_6th_list.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.calculate_3.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.calculate_4.executor&quot;: &quot;Debug&quot;,\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_2.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_3.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_4.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_4_0_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_4_1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_4_2_double_point.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_4_construct_slicing.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_5.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.str_6_slicing.executor&quot;: &quot;Debug&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/pipiqwq/PycharmProjects/notes-python&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\pipiqwq\\PycharmProjects\\pythonProject_0\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunAnythingCache\">\r\n    <myKeys>\r\n      <visibility group=\"最近的项目\" flag=\"true\" />\r\n      <visibility group=\"运行 Python 文件\" flag=\"true\" />\r\n      <visibility group=\"运行 conda 命令\" flag=\"true\" />\r\n      <visibility group=\"运行 pip 命令\" flag=\"true\" />\r\n      <visibility group=\"运行配置\" flag=\"true\" />\r\n    </myKeys>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.main\">\r\n    <configuration name=\"Apr6_1_list\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject_0\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/packages\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\pipiqwq\\PycharmProjects\\pythonProject_0\\packages\\Apr6_1_list.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"__init__\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject_0\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/packages\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/packages/__init__.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject_0\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for test_shopping_list.TestShoppingList.test_query_amount_by_name\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pythonProject_0\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/tests\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;test_shopping_list.TestShoppingList.test_query_amount_by_name&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.__init__\" />\r\n        <item itemvalue=\"Python.Apr6_1_list\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"d63fe971-d0d1-46d0-888b-c9bfed44acfd\" name=\"Changes\" comment=\"\" />\r\n      <created>1712368916813</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1712368916813</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712369112066</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712369112066</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"My First package script\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712370612400</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712370612400</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"My First package script\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712370717629</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712370717629</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"list_dictionary_sorting\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712409129919</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712409129919</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"While_For\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712460554299</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712460554299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"While_For\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712463994030</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712463994030</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Format string\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712473501963</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712473501963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Format string\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712475336797</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712475336797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713243443464</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713243443464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713243767069</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713243767069</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713244804063</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713244804063</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713247153004</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713247153004</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713247196806</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713247196806</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Upload remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713247299022</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713247299022</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"My remote repository\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713250783329</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713250783329</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"16\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"HEAD\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/main\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"initial\" />\r\n    <MESSAGE value=\"My First package script rename\" />\r\n    <MESSAGE value=\"My First package script\" />\r\n    <MESSAGE value=\"list_dictionary_sorting\" />\r\n    <MESSAGE value=\"While_For\" />\r\n    <MESSAGE value=\"Format string\" />\r\n    <MESSAGE value=\"Upload remote repository\" />\r\n    <MESSAGE value=\"My remote repository\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"My remote repository\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/LeetCode/str_4_2_double_point.py</url>\r\n          <line>7</line>\r\n          <option name=\"timeStamp\" value=\"27\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/LeetCode/str_4_0_1.py</url>\r\n          <line>4</line>\r\n          <option name=\"timeStamp\" value=\"28\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 96dab6b83f63dce81e0e7ab7cb8b0f11173f10a4)
++++ b/.idea/workspace.xml	(date 1713343906942)
+@@ -4,8 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="My remote repository">
++    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="Update for merge at R7000">
++      <change afterPath="$PROJECT_DIR$/HJ/hj2_1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/HJ/hj3.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/HJ/hj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj2.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,6 +26,7 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProblemsViewState">
++    <option name="groupByToolId" value="true" />
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -33,55 +38,58 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor&quot;: &quot;Run&quot;,
+-    &quot;Python 测试.Python 测试 (main_test.py 内).executor&quot;: &quot;Run&quot;,
+-    &quot;Python 测试.Python 测试 (test_adder.py 内).executor&quot;: &quot;Run&quot;,
+-    &quot;Python 测试.Python 测试 (test_main.py 内).executor&quot;: &quot;Run&quot;,
+-    &quot;Python 测试.Python 测试 (test_shopping_list.py 内).executor&quot;: &quot;Run&quot;,
+-    &quot;Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr6_1_list.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr6_2_student.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr6_3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr6_3_dictionary_tuple_while.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_1_for.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_2_while.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_3_format_str.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_4_def.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_5_import.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr7_6_OOP.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_1_file.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_2_try_except.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_3_assert.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_5_class_shopping_list.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_6_high_order_function.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_7_lambda.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr8_8_async.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Apr_8_1_async_aiter.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.April_6th.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.April_6th_list.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.calculate_3.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.calculate_4.executor&quot;: &quot;Debug&quot;,
+-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_1.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_2.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_3.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_4.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_4_0_1.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_4_1.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_4_2_double_point.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_4_construct_slicing.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_5.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.str_6_slicing.executor&quot;: &quot;Debug&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pipiqwq/PycharmProjects/notes-python&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor": "Run",
++    "Python 测试.Python 测试 (main_test.py 内).executor": "Run",
++    "Python 测试.Python 测试 (test_adder.py 内).executor": "Run",
++    "Python 测试.Python 测试 (test_main.py 内).executor": "Run",
++    "Python 测试.Python 测试 (test_shopping_list.py 内).executor": "Run",
++    "Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor": "Run",
++    "Python.3_dictionary_tuple.executor": "Run",
++    "Python.Apr6_1_list.executor": "Run",
++    "Python.Apr6_2_student.executor": "Run",
++    "Python.Apr6_3_dictionary_tuple.executor": "Run",
++    "Python.Apr6_3_dictionary_tuple_while.executor": "Run",
++    "Python.Apr7_1_for.executor": "Run",
++    "Python.Apr7_2_while.executor": "Run",
++    "Python.Apr7_3_format_str.executor": "Run",
++    "Python.Apr7_4_def.executor": "Run",
++    "Python.Apr7_5_import.executor": "Run",
++    "Python.Apr7_6_OOP.executor": "Run",
++    "Python.Apr8_1_file.executor": "Run",
++    "Python.Apr8_2_try_except.executor": "Run",
++    "Python.Apr8_3_assert.executor": "Run",
++    "Python.Apr8_5_class_shopping_list.executor": "Run",
++    "Python.Apr8_6_high_order_function.executor": "Run",
++    "Python.Apr8_7_lambda.executor": "Run",
++    "Python.Apr8_8_async.executor": "Run",
++    "Python.Apr_8_1_async_aiter.executor": "Run",
++    "Python.April_6th.executor": "Run",
++    "Python.April_6th_list.executor": "Run",
++    "Python.__init__.executor": "Run",
++    "Python.calculate_3.executor": "Run",
++    "Python.calculate_4.executor": "Debug",
++    "Python.hj2.executor": "Run",
++    "Python.hj2_1.executor": "Debug",
++    "Python.hj3.executor": "Run",
++    "Python.main.executor": "Run",
++    "Python.str_1.executor": "Run",
++    "Python.str_2.executor": "Run",
++    "Python.str_3.executor": "Run",
++    "Python.str_4.executor": "Run",
++    "Python.str_4_0_1.executor": "Run",
++    "Python.str_4_1.executor": "Run",
++    "Python.str_4_2_double_point.executor": "Run",
++    "Python.str_4_construct_slicing.executor": "Run",
++    "Python.str_5.executor": "Run",
++    "Python.str_6_slicing.executor": "Debug",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "main",
++    "last_opened_file_path": "C:/Users/pipiqwq/PycharmProjects/notes-python",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0" />
+@@ -96,7 +104,7 @@
+       <visibility group="运行配置" flag="true" />
+     </myKeys>
+   </component>
+-  <component name="RunManager" selected="Python.main">
++  <component name="RunManager">
+     <configuration name="Apr6_1_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject_0" />
+       <option name="ENV_FILES" value="" />
+@@ -163,7 +171,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Python tests for test_shopping_list.TestShoppingList.test_query_amount_by_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++    <configuration name="test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+       <module name="pythonProject_0" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -321,7 +329,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1713250783329</updated>
+     </task>
+-    <option name="localTasksCounter" value="16" />
++    <task id="LOCAL-00016" summary="Update for merge at R7000">
++      <option name="closed" value="true" />
++      <created>1713254918403</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1713254918403</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -381,7 +397,8 @@
+     <MESSAGE value="Format string" />
+     <MESSAGE value="Upload remote repository" />
+     <MESSAGE value="My remote repository" />
+-    <option name="LAST_COMMIT_MESSAGE" value="My remote repository" />
++    <MESSAGE value="Update for merge at R7000" />
++    <option name="LAST_COMMIT_MESSAGE" value="Update for merge at R7000" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -395,6 +412,11 @@
+           <url>file://$PROJECT_DIR$/LeetCode/str_4_0_1.py</url>
+           <line>4</line>
+           <option name="timeStamp" value="28" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/HJ/hj2_1.py</url>
++          <line>8</line>
++          <option name="timeStamp" value="34" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
