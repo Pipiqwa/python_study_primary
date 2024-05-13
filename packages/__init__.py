@@ -3,4 +3,4 @@ from .Apr6_2_student import Student
 
 # 可以添加一些简单的逻辑，比如打印欢迎信息
 def __getattr__(name):
-    print(f"Welcome to the student_management package. You tried to access {name} which is not defined.")
+    print(f"Welcome to the student_mawwwwwnagement package. You tried to access {name} which is not defined.")

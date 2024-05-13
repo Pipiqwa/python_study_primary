@@ -4,26 +4,143 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="hj4:None">
-      <change afterPath="$PROJECT_DIR$/HJ/hj2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HJ/hj_3_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_rename_test/file_rename.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject_0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject_0.iml" afterDir="false" />
+    <list default="true" id="d63fe971-d0d1-46d0-888b-c9bfed44acfd" name="Changes" comment="rename HJ">
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_102.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_103.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_105.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_14_mine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_24.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_28.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_31.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_35.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_36.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_3_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_45.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_51.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_52.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_53.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_54.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_55.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_57.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_58.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_59.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_5_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_60.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_61.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_63.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_64.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_72.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_73.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_74.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_75.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_76.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_77.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_79.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_82.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_83.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_84.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_85.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_86.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_87.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_88.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_90.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_91.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_92.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_93.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_94.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_95.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_96.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_97.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_98.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HJ_牛客/hj_99.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/a_75_双指针_冒泡排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_rename_test/file_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/oo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr19_推导式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/Apr28_1_迭代器_生成器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码随想录/a_数组_二分查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/a_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/a_1_简单递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/a_2_快排.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/a_2_快速排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_4_17_5_03___Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_4_17_下午5_03_取消提交了更改_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj10.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj11.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj12.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj13.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj14.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj8.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ/hj9.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ/hj9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/str_4_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/str_4_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/a_474.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/a_75.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_21.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_3_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/a_75_计数排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ_牛客/hj_6_other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HJ/hj_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_rename_test/fi_le_rename.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_rename_test/fi_le_rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr8_2_try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr8_2_try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/Apr8_7_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Apr8_7_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,75 +181,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor": "Run",
-    "Python 测试.Python 测试 (main_test.py 内).executor": "Run",
-    "Python 测试.Python 测试 (test_adder.py 内).executor": "Run",
-    "Python 测试.Python 测试 (test_main.py 内).executor": "Run",
-    "Python 测试.Python 测试 (test_shopping_list.py 内).executor": "Run",
-    "Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor": "Run",
-    "Python.3_dictionary_tuple.executor": "Run",
-    "Python.Apr6_1_list.executor": "Run",
-    "Python.Apr6_2_student.executor": "Run",
-    "Python.Apr6_3_dictionary_tuple.executor": "Run",
-    "Python.Apr6_3_dictionary_tuple_while.executor": "Run",
-    "Python.Apr7_1_for.executor": "Run",
-    "Python.Apr7_2_while.executor": "Run",
-    "Python.Apr7_3_format_str.executor": "Run",
-    "Python.Apr7_4_def.executor": "Run",
-    "Python.Apr7_5_import.executor": "Run",
-    "Python.Apr7_6_OOP.executor": "Run",
-    "Python.Apr8_1_file.executor": "Run",
-    "Python.Apr8_2_try_except.executor": "Run",
-    "Python.Apr8_3_assert.executor": "Run",
-    "Python.Apr8_5_class_shopping_list.executor": "Run",
-    "Python.Apr8_6_high_order_function.executor": "Run",
-    "Python.Apr8_7_lambda.executor": "Run",
-    "Python.Apr8_8_async.executor": "Run",
-    "Python.Apr_8_1_async_aiter.executor": "Run",
-    "Python.April_6th.executor": "Run",
-    "Python.April_6th_list.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.calculate_3.executor": "Run",
-    "Python.calculate_4.executor": "Debug",
-    "Python.file_rename.executor": "Run",
-    "Python.hj10.executor": "Run",
-    "Python.hj11.executor": "Run",
-    "Python.hj12.executor": "Run",
-    "Python.hj13.executor": "Run",
-    "Python.hj14.executor": "Run",
-    "Python.hj2.executor": "Run",
-    "Python.hj3.executor": "Run",
-    "Python.hj4.executor": "Debug",
-    "Python.hj5.executor": "Run",
-    "Python.hj6.executor": "Run",
-    "Python.hj7.executor": "Debug",
-    "Python.hj8.executor": "Run",
-    "Python.hj9.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.str_1.executor": "Run",
-    "Python.str_2.executor": "Run",
-    "Python.str_3.executor": "Run",
-    "Python.str_4.executor": "Run",
-    "Python.str_4_0.executor": "Run",
-    "Python.str_4_0_1.executor": "Run",
-    "Python.str_4_1.executor": "Run",
-    "Python.str_4_2_double_point.executor": "Run",
-    "Python.str_4_construct_slicing.executor": "Run",
-    "Python.str_5.executor": "Run",
-    "Python.str_6_slicing.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kk/PycharmProjects/python_study_primary",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python 测试.Python tests in test_adder.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python tests in test_shopping_list.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (Apr8_4_test_unittest.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (main_test.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_adder.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_main.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_shopping_list.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.test_shopping_list.TestShoppingList.test_query_amount_by_name 的 Python 测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr19_推导式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr28_1_迭代器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr28_1_迭代器_生成器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr6_1_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr6_2_student.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr6_3_dictionary_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr6_3_dictionary_tuple_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_1_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_2_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_3_format_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_4_def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_5_import.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr7_6_OOP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_1_async_aiter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_1_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_2_try_except.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_3_assert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_5_class_shopping_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_6_high_order_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_7_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr8_8_async.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Apr_8_1_async_aiter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.April_6th.executor&quot;: &quot;Run&quot;,
+    &quot;Python.April_6th_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_1_简单递归.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_2_快排.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_2_快速排序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_75.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.a_75_双指针_冒泡排序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.a_数组_二分查找.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.fi_le_rename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_create.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_rename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj7.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_14_mine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_17.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj_20.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj_21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_3_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_5_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_6_other.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_77.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_77_dfs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj_78.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_86.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hj_9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hj_97.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4_0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4_0_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4_2_double_point.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_4_construct_slicing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.str_6_slicing.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pipiqwq/PycharmProjects/pythonProject_0/HJ_牛客&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0\HJ_牛客" />
+      <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0\file_rename_test" />
       <recent name="C:\Users\pipiqwq\PycharmProjects\pythonProject_0" />
     </key>
   </component>
@@ -190,6 +348,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hj_77_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject_0" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HJ_牛客" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject_0" />
       <option name="ENV_FILES" value="" />
@@ -229,6 +409,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hj_77_dfs" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.Apr6_1_list" />
       </list>
@@ -394,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713279276523</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="rename HJ">
+      <option name="closed" value="true" />
+      <created>1713414512661</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713414512661</updated>
+    </task>
+    <task id="LOCAL-00020" summary="rename HJ">
+      <option name="closed" value="true" />
+      <created>1713414546230</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713414546230</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,7 +629,8 @@
     <MESSAGE value="hj3,hj4" />
     <MESSAGE value="hj3" />
     <MESSAGE value="hj4:None" />
-    <option name="LAST_COMMIT_MESSAGE" value="hj4:None" />
+    <MESSAGE value="rename HJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename HJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,19 +651,94 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj7.py</url>
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_5_0.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_6.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_8.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_15.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/a_75_双指针_冒泡排序.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeetCode/a_75.py</url>
           <line>2</line>
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj6.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/代码随想录/a_数组_二分查找.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HJ/hj12.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_17.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_21.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_86.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_78.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77_dfs.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_77.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HJ_牛客/hj_67.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

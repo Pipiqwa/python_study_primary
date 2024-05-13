@@ -8,7 +8,7 @@ except ZeroDivisionError:
     print("身高不能为0")
 except:
     print("发生未知错误")
-else:
+else:          # 没错误的话：
     print("BMI为：" + str(user_BMI))
 finally:
     print("程序结束")

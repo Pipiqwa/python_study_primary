@@ -1,7 +1,7 @@
 import os
 
 # 指定要重命名的文件夹路径
-folder_path = '../HJ'
+folder_path = '../HJ_牛客'
 
 # 重命名函数，可以根据需要修改函数体来实现不同的重命名规则
 def rename_files(directory):
